@@ -2,11 +2,11 @@
   "client_id": 1,
   "path": "./",
   "path_linux": "./",
-  "account_key":"b8aa7173bba3470e390d787219b2112e",
+  "account_key":"xxx",
   "account": [
     {
-      "user": "453191001684",
-      "password": "3nj2qnSp"
+      "user": "xxx",
+      "password": "xxx"
     }
   ],
   "trade_port": 6104,
@@ -28,8 +28,8 @@
   "ping_pong_test": false,
   "quote_ip": "119.3.103.38",
   "quote_port": 6002,
-  "quote_user": "453191001684",
-  "quote_password": "3nj2qnSp",
+  "quote_user": "xxx",
+  "quote_password": "xxx",
   "quote_ticker": {
     "instrument": [
       "159812"
@@ -39,8 +39,8 @@
   "hb_interval":15,
   "quote_buffer_size":256,
   "quote_protocol":1,
-  "account_algo": "353191001798",
-  "password_algo": "p1ZSJPds",
+  "account_algo": "xxx",
+  "password_algo": "xxx",
   "ip_algo": "119.3.40.4",
   "port_algo": 8602,
   "strategy": {
