@@ -155,7 +155,9 @@ std::vector<OrderLots> ZTSMatch::matcher(std::string symbol, e2::Int_e now,
         if (orders[m].isCancel) {
             if (gsql != nullptr) {
                 gsql->update_table("trades");
-                gsql->update_field("stat", 4);  // OrdStatus: Canceled
+                gsql->update_field(
+                    "stat",
+                    (int)e2::OrdStatus::ost_Canceled);  // OrdStatus: Canceled
                 gsql->update_condition("ticket", ticket);
                 gsql->update_commit();
             }

@@ -126,7 +126,6 @@ private:
     // ticket -> OrderIntem
     std::map<std::uint64_t, OrderItem *> _MapOrder;
 
-    // XTPOrderInsertInfo *_XTPOrder;
 }; /* -----  end of class ZTSMatch  ----- */
 
 }  // namespace E2ZTS
